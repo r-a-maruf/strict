@@ -1,0 +1,332 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+}
+a,a:hover{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Thoma;
+}
+/************************************
+    header section css goes here
+*************************************/
+.header{
+	
+    padding: 20px 0px;
+    background: #f9f9f9;
+
+}
+.logo{
+	
+}
+/************************************
+    bannar section css goes here
+*************************************/
+.bannar{
+	
+	height: 100vh;
+	font-family: 'Lato', sans-serif;
+	background: url('../img/Image.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom:90px;
+}
+.inner{
+	
+	text-align: center;
+	/* margin-left: 110px; */
+	padding-bottom: 80px;
+}
+.inner h1{
+	text-transform: uppercase;
+    text-align: center;
+    padding-top:190px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+.inner .divider{
+	width: 40%;
+    height: 2px;
+    margin:0px auto;
+    background: #0099FF;
+    margin-top: 14px;
+}
+.inner p{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size:15px;
+	color:#f6f6f6;
+	margin-top:35px;
+}
+.inner .btn{
+	margin-top: 70px;
+	text-align: center;
+	padding: 5px 20px;
+}
+.inner .btn a{
+	padding: 10px 20px;
+	border: 1px solid #0099FF;
+	border-radius: 5px;
+	margin-top: 40px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+.inner .aro{
+	margin-top:100px;
+	
+	
+}
+.inner .btn a:hover{
+	background: #0099FF;
+	transition: 2s;
+}
+/************************************
+    simple section css goes here
+*************************************/
+.simple{
+	text-align: center;
+	background: #f6f9f9;
+	padding: 80px 0px;
+	
+}
+.simple h1{
+	font-family:  'Lato', sans-serif;
+	text-align: center;
+	color: #2d3950;
+	font-size: 25px;
+
+}
+.simple p{
+	text-align: center;
+	color: #999999;
+	font-family:  'Lato', sans-serif;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size:16px;
+}
+/************************************
+    feature section css goes here
+*************************************/
+.feature{
+	padding: 80px 0px;
+	background: white;
+}
+.feature .f-inner{
+	text-align: center;
+	
+}
+.feature .f-inner h4{
+	font-size: 25px;
+	font-family:  'Lato', sans-serif;
+	padding: 10px 0px;
+	color: #454e61;
+}
+.feature .f-inner p{
+	text-align: center;
+	font-family:  'Lato', sans-serif;
+	line-height: 20px;
+	font-size: 16px;
+	color: #bfbfbf;
+}
+/************************************
+    feature section css goes here
+*************************************/
+.portfolio{
+	background:#f6f9f9;
+	padding: 80px 0px;
+}
+.title{
+	font-family:  'Lato', sans-serif;
+	text-align: center;	
+
+	
+}
+.portfolio .title h1{
+	text-align: center;
+	font-family:  'Lato', sans-serif;
+	color: #2d3950;
+	font-size: 35px;
+}
+.portfolio .title p{
+	text-align: center;
+	color: #989898;
+	font-size:15px;
+	font-family:  'Lato', sans-serif;
+	margin-top:15px;
+	line-height: 25px;
+	padding-bottom: 50px;
+}
+.card{
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 0px;
+
+}
+
+.port-hover{
+	
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: rgb(43, 170, 246,.6);
+    display: none;
+  
+
+}
+.port-hover .icons{
+	position: absolute;
+    top: 42%;
+    left: 37%;
+}
+.card:hover .port-hover{
+	transition: .5s;
+	display: block;
+}
+/************************************
+   stay-with section css goes here
+*************************************/
+.stay-with{
+	width: 100%;
+	height: auto;
+	background:  url('../img/BG.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+}
+
+.title{
+	
+	/* margin-top: 50px; */
+	text-align: center;	
+	/* margin-left: 50px; */
+	
+}
+.stay-with .title h1{
+	
+	text-align: center;
+	margin-top: 50px;
+	line-height: 45px;
+	color: #ffffff;
+	font-size: 35px;
+
+}
+.stay-with .title p{
+	
+	text-align: center;
+	color: #939495;
+	font-size:15px;
+	margin-top:15px;
+	line-height: 25px;
+	padding-bottom: 50px;
+}
+.form-group{
+	
+	text-align: center;
+}
+.form-group .name{
+	width: 50%;
+	line-height: 20px;
+	padding: 12px 0px 8px;
+	margin-bottom: 15px;
+	background: transparent;
+	overflow: hidden;
+	border: 1px solid #bbbcbc;
+	
+}
+.form-group .email{
+	width: 50%;
+	line-height: 20px;
+	padding: 12px 0px 8px;
+	margin-bottom: 15px;
+	background: transparent;
+	overflow: hidden;
+	border: 1px solid #bbbcbc;
+	border-radius: 1px ;
+}
+.form-group .massege{
+	width: 50%;
+	line-height: 20px;
+	padding: 12px 0px 150px;
+	margin-bottom: 15px;
+	background: transparent;
+	overflow: hidden;
+	border: 1px solid #bbbcbc;
+}
+.stay-with-f{
+	/* text-align: center; */
+	width: 100%;
+}
+.stay-with-f .checkbox{
+	margin-top: 5px;
+	margin-left: 25%;
+}
+input[type="checkbox"]{
+	background: #bbbcbc;
+}
+label{
+	color: #ffffff;
+}
+.stay-with-f .btn{
+	float: right;
+	margin-right: 25%;
+	
+	font-size: 15px;
+	background: transparent;
+	overflow: hidden;
+	padding: 5px 30px;
+	border: 1px solid #0099FF;
+}
+.stay-with-f .btn:hover{
+	background: #0099FF;
+	border-radius: 5px;
+	transition: .5s;
+
+}
+.stay-with-f .btn a{
+	color: white;
+}
+
+.footer{
+	width: 100%;
+	
+
+}
+.copy-right{
+	
+	padding-top: 25px;
+	padding-bottom: 20px;
+	margin-left: 10%;
+}
+.copy-right h4{
+    width: 100%;
+    color: #bbbcbc;
+    margin-top: 6px;
+}
+.social-icon{
+	float: right;
+    padding: 25px 0px;
+}
+.social-icon ul{
+	display: block;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icon ul li a{
+	padding: 20px;
+	/* color: #fff; */
+}
